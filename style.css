@@ -1,97 +1,40 @@
-main{
-    display: flex;
-    justify-content: center;
+*{
+    padding: 0;
+    margin:  0;
 }
 
-.section_left{
-    margin-top: 135px;
-    margin-left: 120px;
-    margin-right: 45px;
-    margin-bottom: 307px;
+body{
+    background-color: hsl(335, 44%, 89%);
 }
-
-.section_right{
-    margin-top: 42px;
-    margin-right: 126px;
-    display: flex;
-    margin-bottom: 42px;
-}
-
-.section_left_top{
-    width: 495px;
-    height: 228px;  
-    margin-bottom: 91px;
-}
-
 
 h1{
-    font-size: 36px;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    color: #333333;
-    margin-bottom: 24px;
-}
-
-p{
-    font-family: "Lato", sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: justify;
-    color: #333333;
-    margin-bottom: 35px;
-}
-
-button{
-    width: 222px;
-    height: 66px;
-    background-color: #333333;
-    color: #FFFFFF;
-    font-size: 22px;
-    line-height: 18px;
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    margin-left: 136px;
-    border-radius: 56px;
-    border: none;
-}
-
-.section_left_bottom{
-    width: 495px;
-    height: 148px;
+    background-color: hsl(335, 44%, 59%);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    color:hsl(335, 44%, 89%);
+    height: 100px;
 }
 
-.img_section_left{
-    width: 148.9px;
-    height: 148px;
-    margin-right: 24.15px;
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
-.last{
-    margin-right: 0px;
-}
-
-.section_right_left{
+.grid{
+    margin: 10px 10px;
+    background-color: rgb(196, 103, 142);
+    color: hsl(335, 44%, 89%);
     display: flex;
-    flex-direction: column;
-    margin-top: 42px;
-    margin-right: 48px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px ;
+    font-size: 1.5rem;
+    padding: 2rem;
+    transition: background-color 0.3s ease;
 }
-
-.section_right_img{
-    width: 302px;
-    height: 348px;
-    margin-bottom: 48px;
-}
-
-.section_right_right{
-    margin-top: 123px;
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-
-
-
